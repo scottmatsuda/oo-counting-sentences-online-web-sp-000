@@ -28,8 +28,6 @@ class String
 
   def count_sentences
     array = self.split(" ")
-    #array = self.split("?")
-    p array
     count = 0
     array.each do |element|
       if element.exclamation?
